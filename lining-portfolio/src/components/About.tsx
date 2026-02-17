@@ -44,17 +44,15 @@ export default function About() {
             <h1 className="font-bold mb-12">ABOUT ME</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 max-w-[500px]">
-                <p className="text-[#0000FF] text-xl font-semibold">
-                  Hello friend!
-                </p>
-                <p className="text-lg leading-relaxed text-justify">
+                <p className="text-[#0000FF] text-xl">Hello friend!</p>
+                <p className="leading-relaxed text-justify">
                   Based in Ottawa, I'm currently studying{" "}
                   <span className="text-[#0000FF] font-semibold">
                     Software Engineering
                   </span>{" "}
                   with a passion for creative design.
                 </p>
-                <p className="text-lg leading-relaxed text-justify">
+                <p className="leading-relaxed text-justify">
                   Outside of tech,{" "}
                   <span className="text-[#0000FF] font-semibold">
                     journalling
@@ -71,7 +69,7 @@ export default function About() {
                 >
                   <span className="text-8xl text-[#0000FF]">✸</span>
                 </motion.div>
-                <div className="relative w-70 h-110 rounded-full overflow-hidden border-2 border-black">
+                <div className="relative w-70 h-110 rounded-full overflow-hidden border-[1.7px] border-black">
                   <Image
                     src="/AboutMeProfilePhoto.png"
                     alt="Profile photo"
