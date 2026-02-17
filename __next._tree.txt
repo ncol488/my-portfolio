@@ -1,0 +1,3 @@
+:HL["/my-portfolio/_next/static/chunks/88a77051901b882f.css","style"]
+:HL["/my-portfolio/_next/static/media/75affa71d1e2f6a7-s.p.51cde8ff.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"upTeaqRvet_C-fGZwusSf","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
