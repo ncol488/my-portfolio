@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+body {
+  background: #e7e7e7;
+  color: #171717;
+  font-family: var(--font-archivo), Arial, sans-serif;
+  letter-spacing: -0.07em;
+  line-height: 0.95;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.08em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 5rem; /* 48px */
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2.25rem; /* 36px */
+}
+
+h3 {
+  font-size: 1.875rem; /* 30px */
+}
+
+h4 {
+  font-size: 1.5rem; /* 24px */
+}
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+}
+
+h6 {
+  font-size: 1rem; /* 16px */
+}
+p {
+  font-weight: 100;
+  font-size: 1.7rem;
+  letter-spacing: -0.06em;
+  word-spacing: -0.01em;
+}
+
+@layer components {
+  .btn-primary {
+    background-color: #000;
+    color: #fff;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: #2d3748;
+  }
+}
