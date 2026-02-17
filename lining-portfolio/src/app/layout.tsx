@@ -10,9 +10,12 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "Lining's Portfolio",
+  title: "Lining Ao | Software Engineering",
+  description: "3rd Year Software Engineering Student at uOttawa",
+  icons: {
+    icon: "/icon.png",
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
