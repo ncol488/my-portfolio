@@ -2,9 +2,12 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export default function Hero() {
+export default function Home() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-portfolio-gray px-6 pt-20 overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center bg-portfolio-gray px-6 pt-20 overflow-hidden"
+    >
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="relative">
           {/* Stars fade in */}
@@ -75,8 +78,8 @@ export default function Hero() {
           {/* Star spins slowly */}
           <motion.div
             className="absolute -top-8 lg:-top-16 right-4 lg:right-8"
-            animate={{ rotate: 360 }}
-            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+            animate={{ rotate: [0, 10, -10, 10, 0] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
             <Image
               src="/hero-star.svg"
