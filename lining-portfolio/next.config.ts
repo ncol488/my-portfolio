@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   output: "export",
+  // This must match your GitHub repository name exactly
+  basePath: "/my-portfolio",
   images: {
     unoptimized: true,
   },
